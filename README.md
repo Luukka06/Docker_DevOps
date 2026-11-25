@@ -34,5 +34,9 @@ curl-ის ინსტალაციას სანამ დავიწყ
 ![Rename](ScreenShots_Docker/rename_DockerFile.png)
 ამის შემდეგ ვაწყობ (build)Docker იმიჯს:
 ![Scrips](ScreenShots_Docker/pythonScrips,DockerFile,docker_build_my-python-app.png)
-
-
+app.py არის მარტივი Python პროგრამა, რომელიც ტერმინალში გამოიტანს რამდენიმე შეტყობინებას, ხოლო Dockerfile არის ტექსტური ფაილი, რომელშიც აღწერილია Docker Image-ის შექმნის ინსტრუქციები.
+## შექმნილი იმიჯის გაშვება და tag-ის მინიჭება
+ბრძანება ქმნის ახალ კონტეინერს my-python-app Image-ის საფუძველზე და უშვებს მას. კონტეინერის გაშვებისას შესრულდება Dockerfile-ში განსაზღვრული CMD ბრძანება, რომელიც ჩვენს Python პროგრამას იწყებს. პროგრამის მიერ გამოტანილი ტექსტი გამოჩნდება ტერმინალში, დასრულების შემდეგ კი კონტეინერი შეჩერდება.
+![run image](ScreenShots_Docker/docker_run_my-python-app.png)
+მომდევნო ბრძანებით ვანიჭებთ იმიჯს ახალ tag-ს(tagg1) და საბოლოოდ გამოგვაქვს ყველა იმიჯის სია:
+![docker tag](ScreenShots_Docker/tag_minicheba.png)
