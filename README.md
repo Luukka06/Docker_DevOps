@@ -24,3 +24,15 @@ curl-ის ინსტალაციას სანამ დავიწყ
 შემდეგ უკვე აქტიურ კონტეინერს შევაჩერებთ და ვშლით
 ![docker stop](ScreenShots_Docker/docker_stop_ContainerID.png)
 ![docker rm](ScreenShots_Docker/docker_rm_ContainerID.png)
+
+# ნაწილი 2
+## ახალი საქაღალდის შექმნა
+ამ ყველაფრის შემდეგ გადავდივარ ჩემს მთავარ საქაღალდეში, ვქმნი ახალ საქაღალდეს DockerPythonApp ჩემს დირექტორიაში და გადავდივარ მის შიგნით:
+![ახალი საქაღალდის შექმნა](ScreenShots_Docker/cd$HOME,mkdir,cd_DockerPythonApp.png)
+## მარტივი python სკრიპტი და Dockerfile, (build)Docker image
+ვქმნი ახალ სკრიპტებს NotePad-ის დახმარებით, თუმცა ამ დროს შემექმნა პრობლემა, რადგან შექიმნა Dockerfile.txt და არ მაწყობდა, შესაბამისად მომიწია ფაილზე სახელის გადარქმევა და ამის სისწორეს ვამოწმებ dir ბრძანებით, რომ ნამდვილად შეიცვალა სახელი:
+![Rename](ScreenShots_Docker/rename_DockerFile.png)
+ამის შემდეგ ვაწყობ (build)Docker იმიჯს:
+![Scrips](ScreenShots_Docker/rename_DockerFile.png)
+
+
