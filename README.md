@@ -20,3 +20,7 @@ curl-ის ინსტალაციას სანამ დავიწყ
 ## კონტეინერიდან გამოსვლა, კონტეინერების სიის გამოტანა, ერთ-ერთი მათგანის გაჩერება და წაშლა
 კონტეინერიდან გამოვედი exit ბრძანებით. კონტეინერების სია გამომაქვს როგორც აქტიურების, ისე exited მათგანების, რასაც ვახერხებ -a-ს გამოყენებით:
 ![docker ps -a](ScreenShots_Docker/docker_ps.png)
+
+შემდეგ უკვე აქტიურ კონტეინერს შევაჩერებთ და ვშლით
+![docker stop](ScreenShots_Docker/docker_stop_ContainerID.png)
+![docker rm](ScreenShots_Docker/docker_rm_ContainerID.png)
