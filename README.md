@@ -33,6 +33,6 @@ curl-ის ინსტალაციას სანამ დავიწყ
 ვქმნი ახალ სკრიპტებს NotePad-ის დახმარებით, თუმცა ამ დროს შემექმნა პრობლემა, რადგან შექიმნა Dockerfile.txt და არ მაწყობდა, შესაბამისად მომიწია ფაილზე სახელის გადარქმევა და ამის სისწორეს ვამოწმებ dir ბრძანებით, რომ ნამდვილად შეიცვალა სახელი:
 ![Rename](ScreenShots_Docker/rename_DockerFile.png)
 ამის შემდეგ ვაწყობ (build)Docker იმიჯს:
-![Scrips](ScreenShots_Docker/rename_DockerFile.png)
+![Scrips](ScreenShots_Docker/pythonScrips,DockerFile,docker_build_my-python-app.png)
 
 
